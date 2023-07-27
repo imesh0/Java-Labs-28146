@@ -1,0 +1,9 @@
+Due to two problems, the provided code will produce a compilation error:
+
+1. The 'final' keyword is used with the method 'display()' in the 'Student' class to indicate that this method cannot be overridden in any subclass. 
+
+2. The'marks' variable in the 'Student' class likewise uses the 'final' keyword. As a result, "marks" becomes a constant that cannot be altered or updated. 
+
+By removing the 'final' keyword from the 'display()' method in the 'Student' class, you may resolve the compilation problem and enable the method to be inherited by the 'Undergraduate' class.
+
+

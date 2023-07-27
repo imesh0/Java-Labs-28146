@@ -1,0 +1,19 @@
+1.
+
+The public static final keyword may or may not be used when declaring the variable. 
+The distinction between these two methods is that if the variable is declared using 
+the public static final keywords, it is treated as a constant and its value cannot be modified. 
+The variable becomes a regular variable and its value can be modified if it is declared without 
+these keywords.
+
+2.
+
+The abstract keyword is required when declaring an abstract method.Without the abstract 
+keyword, it becomes a regular method and requires an implementation, which you must supply. 
+Any class that implements the interface is required to implement any method that has no 
+implementation, known as an abstract method.
+3.
+
+Since variables in an interface are static and final by default, changing the value 
+of x inside this method won't affect the value of x in the interface. As a result,
+once initialized, they cannot be modified.
